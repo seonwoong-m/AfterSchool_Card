@@ -13,8 +13,6 @@ public class DeckManager : MonoBehaviour
 
     public Transform hand;
 
-    float drawTime = 0f;
-
     void Start()
     {
         // Initial Deck 에서 player Deck으로 Clone
@@ -28,6 +26,14 @@ public class DeckManager : MonoBehaviour
         {
             Card card = playerDeck.Draw();
             InstantiateCardObjec(card);
+        }
+    }
+
+    public void CardSizeCtrl()
+    {
+        for(int i = 0; i < cardsInHand.Count; i++)
+        {
+            cardsInHand[i].GetComponent<CardSize>().isLarge = false;
         }
     }
 
