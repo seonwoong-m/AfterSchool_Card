@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class CardHandler : MonoBehaviour
 {
     public Image image;
-    Card card;
+    public Card card;
 
     public void Init(Card card)
     {

@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0e792cc5ffe0a74e894efebc10be0b9, type: 3}
   m_Name: Dia2
   m_EditorClassIdentifier: 
-  id: 
-  tagString: 
+  id: 2
+  tagString: Dia
   usable: 0
   disposable: 0
   power: {fileID: 11400000, guid: c9e28dbfb3dea3e41a3cee67bb94cd95, type: 2}

@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0e792cc5ffe0a74e894efebc10be0b9, type: 3}
   m_Name: HeartQ
   m_EditorClassIdentifier: 
-  id: 
-  tagString: 
+  id: 12
+  tagString: Heart
   usable: 0
   disposable: 0
   power: {fileID: 11400000, guid: 401ebcfb20ffb3a4f99338df6a3b58e8, type: 2}

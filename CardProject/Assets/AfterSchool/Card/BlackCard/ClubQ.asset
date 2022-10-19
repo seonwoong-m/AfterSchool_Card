@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0e792cc5ffe0a74e894efebc10be0b9, type: 3}
   m_Name: ClubQ
   m_EditorClassIdentifier: 
-  id: 
-  tagString: 
+  id: 12
+  tagString: Club
   usable: 0
   disposable: 0
   power: {fileID: 11400000, guid: 9f9e4a8d115361d44be3252a1d3c8903, type: 2}

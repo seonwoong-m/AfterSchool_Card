@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0e792cc5ffe0a74e894efebc10be0b9, type: 3}
   m_Name: Heart3
   m_EditorClassIdentifier: 
-  id: 
-  tagString: 
+  id: 3
+  tagString: Heart
   usable: 0
   disposable: 0
   power: {fileID: 11400000, guid: b9ad565fe2e9c3648a49cb17c747a6c6, type: 2}

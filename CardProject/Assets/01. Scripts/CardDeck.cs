@@ -24,14 +24,15 @@ public class CardDeck : ScriptableObject
         deck.AddRange(cards);
     }
 
-    public Card Draw()
+    public Card Draw(int a)
     {
+        
+
         if(deck.Count == 0)
         {
             return null;
         }
-   
-        Card card = deck.Last();
+        Card card = deck[a];
         deck.Remove(card);
         return card;
     }

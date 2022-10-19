@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0e792cc5ffe0a74e894efebc10be0b9, type: 3}
   m_Name: Spade10
   m_EditorClassIdentifier: 
-  id: 
-  tagString: 
+  id: 10
+  tagString: Spade
   usable: 0
   disposable: 0
   power: {fileID: 11400000, guid: a885cf72cc8f74246bd6e82a2fb36ab3, type: 2}

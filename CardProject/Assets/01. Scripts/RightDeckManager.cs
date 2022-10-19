@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DeckManager : MonoBehaviour
+public class RightDeckManager : MonoBehaviour
 {
     public GameObject cardPrefab;
 
@@ -11,22 +11,42 @@ public class DeckManager : MonoBehaviour
 
     public List<CardHandler> cardsInHand;
 
+    int[] cardNum = new int[52];
+    int count = 52;
+
     public Transform hand;
 
     void Start()
     {
         // Initial Deck 에서 player Deck으로 Clone
         playerDeck = initialDeck.Clone();
+
+        for(int i = 0; i < cardNum.Length; i++)
+        {
+            cardNum[i] = -1;
+        }
     }
 
     public void Draw()
     {
+        int a = Random.Range(0, count);
+
+        // if(cardNum[a] != a)
+        // {
+        //     cardNum[a] = a;
+
+            if(cardsInHand.Count < 9)
+            {
+                Card card = playerDeck.Draw(a);
+                InstantiateCardObjec(card);
+                count--;
+            }
+        //}
+        // else
+        // {
+        //     Draw();
+        // }
         // Draw 호출되면 IOnstantiateCardObject 실행
-        if(cardsInHand.Count < 9)
-        {
-            Card card = playerDeck.Draw();
-            InstantiateCardObjec(card);
-        }
     }
 
     public void CardSizeCtrl()
